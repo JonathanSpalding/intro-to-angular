@@ -1,12 +1,21 @@
 // Initialize an App called myApp
-<html>
+<html data-ng-app="myApp">
 <head>
 </head>
 <body>
+    <script src="../angular.js"></script>
 </body>
 </html>
 
 //Create the javascript to initialize the the app
+
+//name of our javascript file: ourfile.js
+
+//create a module with the key myApp
+angular.module("myApp", [])
+
+//getting an existing module with the key myApp
+angular.module("myApp");
 
 
 //get that same app back out to use
@@ -15,19 +24,34 @@
 *****************************************************
 // Initialize an App call devMtnApp
 
+<html data-ng-app="devMtnApp">
+<head>
+</head>
+<body>
+    <script src="../angular.js"></script>
+</body>
+</html>
 
 // Create the javascript side for that app
-
+angular.module("devMtnApp);
 
 // get that same app back out to use
 
 
 *****************************************************
 // Initialize an App call tAppDance that uses a dependency called ng-route
-
+<html data-ng-app="tAppDance">
+<head>
+</head>
+<body>
+    <script src="../angular.js">
+    <script src="../ngRoute.js">
+    <script src="ourfile.js">
+</body>
+</html>
 
 // Create the javascript side for that app
-
+angular.module("tAppDance", ["ng-route"])
 
 // get that same app back out to use
-
+angular.module("tAppDance");

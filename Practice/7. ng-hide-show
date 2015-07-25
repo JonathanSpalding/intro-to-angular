@@ -2,7 +2,7 @@
 
 $scope.isAdmin = false;
 
-<div>
+<div data-ng-hide="!isAdmin">
 	<a href="win">Click here for super powers</a>
 </div>
 

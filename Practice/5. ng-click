@@ -2,24 +2,29 @@
 
 <button>Open</button>
 
-$scope.
+$scope.open = function(){
 
+}
 
 *****************************************************
 
 //call a function called more when this link is pressed
 
-<a href="#">More</a>
+<a href="#" data-ng-click="more">More</a>
 
-$scope.
+$scope.more = function() {
+
+}
 
 
 *****************************************************
 
 //call a function called less when this div is pressed
 
-<div>
+<div data-ng-click="less">
   Way too much stuff in here
 </div>
 
-$scope.
+$scope.less = function() {
+
+}

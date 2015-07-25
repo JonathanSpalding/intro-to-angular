@@ -1,10 +1,16 @@
 //Your app is called myApp
 //Create a controller called myController
+var ourApp = angular.module("myApp")
+var ourCntroller = ourApp.controller("myController", function($scope) {
+    //This is not run until angular wants it to.
+
+})
+ourApp.controller("myController", ourCntroller)
 
 
 //Instantiate that controller in the html on the body
 
-<body>
+<body ng-controller="myController">
 
 </body>
 

@@ -1,12 +1,13 @@
 Explain each of the following:
 
-ng-app
-ng-controller 
-$scope
-ng-model 
-{{}}
-ng-repeat
-filters
-General Overview of Services and Directives
-ng-show (Not in Video)
-ng-click
+ng-app:
+ng-controller:
+$scope: Manages the action between controller and view "glue"
+ng-model: "data Binding"
+{{}}: "binding" "data Binding"
+ng-repeat: Iterate or repeat multiple times.
+filters: Filters out only what you want.
+Services/Factory:
+Directives: how to do fancy things with the view.
+ng-show (Not in Video): Helps with showing stuff
+ng-click: deals with clicking stuff.

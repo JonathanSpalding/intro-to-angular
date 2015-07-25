@@ -1,7 +1,9 @@
-What does the DOM stand for?
+What does the DOM stand for?: Document Object Model. "Playground (or staging area) that's getting things prepped for what is rendered."
 What does is the relationship between javascrip the dom and what is rendered on the screen?
 
-What is MVC?
-What is the role of M
-What is the role of the V
-What is the role of the C
+What is MVC?:  model view controller
+What is the role of M: Like a model plane. "represents the data you are working with."
+What is the role of the V: View is the visual representation. Like HTML
+What is the role of the C:  The verb. it acts on the M and V.
+
+"Separation of concerns so your code is organized nicely."
